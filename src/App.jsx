@@ -65,8 +65,9 @@ export class App extends Component {
             <DisplayBio developers={this.state.developers} />
           } />
           <Route path="/developers/add" element={
-            <AddDeveloper handleNewDeveloper={this.handleNewDeveloper} />
+            <AddDeveloper />
           } />
+          
         </Routes>
       </Router>
     )
